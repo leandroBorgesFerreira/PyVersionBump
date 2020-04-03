@@ -1,0 +1,24 @@
+ext {
+
+    configuration = [
+            // App name and version
+            applicationId      : 'com.leandroferreira',
+            // 9VVMMHHHE V -> major version, M -> minor version, H -> hotfix, E -> environment (Production -> ≥2, Beta -> 1, Alpha -> 0)
+            versionName        : '3.49.0',
+            versionCode        : 903490002,
+
+            // Android SDK
+            sdkVersion         : 28,
+            minSdkVersion      : 21,
+            targetSdkVersion   : 29,
+            buildToolsVersion  : '29.0.0',
+
+            // Java source
+            sourceCompatibility: JavaVersion.VERSION_1_8,
+            targetCompatibility: JavaVersion.VERSION_1_8,
+    ]
+
+    libraries = [
+
+    ]
+}
