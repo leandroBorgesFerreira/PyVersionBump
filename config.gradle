@@ -4,7 +4,7 @@ ext {
             // App name and version
             applicationId      : 'com.leandroferreira',
             // 9VVMMHHHE V -> major version, M -> minor version, H -> hotfix, E -> environment (Production -> ≥2, Beta -> 1, Alpha -> 0)
-            versionName        : '3.59.0',
+            versionName        : '3.60.0',
             versionCode        : 903560002,
 
             // Android SDK
